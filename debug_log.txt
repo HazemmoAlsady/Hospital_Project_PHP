@@ -221,3 +221,135 @@
 [2025-12-10 23:21:12] Config loaded. BASE_URL: http://localhost:8000/
 [2025-12-10 23:21:12] Request Incoming: GET /doctor/dashboard
 [2025-12-10 23:21:12] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-12 00:33:24] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:33:24] Request Incoming: GET /graduation_project/
+[2025-12-12 00:33:24] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:33:40] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:33:40] Request Incoming: GET /graduation_project/register
+[2025-12-12 00:33:40] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:33:57] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:33:57] Request Incoming: POST /graduation_project/register
+[2025-12-12 00:33:57] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:33:57] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:33:57] Request Incoming: GET /graduation_project/
+[2025-12-12 00:33:57] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:34:03] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:34:03] Request Incoming: GET /graduation_project/register
+[2025-12-12 00:34:03] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:34:13] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:34:13] Request Incoming: POST /graduation_project/register
+[2025-12-12 00:34:13] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:34:13] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:34:13] Request Incoming: GET /graduation_project/
+[2025-12-12 00:34:13] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:34:18] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:34:18] Request Incoming: POST /graduation_project/login
+[2025-12-12 00:34:18] Router Processing: Original URI=[/graduation_project/login] Cleaned Route=[/login]
+[2025-12-12 00:34:18] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:34:18] Request Incoming: GET /graduation_project/patient/dashboard
+[2025-12-12 00:34:18] Router Processing: Original URI=[/graduation_project/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-12 00:35:10] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:35:10] Request Incoming: GET /graduation_project/logout?1765496110564
+[2025-12-12 00:35:10] Router Processing: Original URI=[/graduation_project/logout?1765496110564] Cleaned Route=[/logout]
+[2025-12-12 00:35:10] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:35:10] Request Incoming: GET /graduation_project/
+[2025-12-12 00:35:10] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:35:13] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:35:13] Request Incoming: POST /graduation_project/login
+[2025-12-12 00:35:13] Router Processing: Original URI=[/graduation_project/login] Cleaned Route=[/login]
+[2025-12-12 00:35:13] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:35:13] Request Incoming: GET /graduation_project/
+[2025-12-12 00:35:13] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:35:18] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:35:18] Request Incoming: GET /graduation_project/register
+[2025-12-12 00:35:18] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:36:05] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:36:05] Request Incoming: POST /graduation_project/register
+[2025-12-12 00:36:05] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:36:06] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:36:06] Request Incoming: GET /graduation_project/
+[2025-12-12 00:36:06] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:36:24] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:36:24] Request Incoming: POST /graduation_project/login
+[2025-12-12 00:36:24] Router Processing: Original URI=[/graduation_project/login] Cleaned Route=[/login]
+[2025-12-12 00:36:24] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:36:24] Request Incoming: GET /graduation_project/
+[2025-12-12 00:36:24] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:36:31] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:36:31] Request Incoming: POST /graduation_project/login
+[2025-12-12 00:36:31] Router Processing: Original URI=[/graduation_project/login] Cleaned Route=[/login]
+[2025-12-12 00:36:31] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:36:31] Request Incoming: GET /graduation_project/patient/dashboard
+[2025-12-12 00:36:31] Router Processing: Original URI=[/graduation_project/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-12 00:37:06] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:37:06] Request Incoming: GET /graduation_project/
+[2025-12-12 00:37:06] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:37:06] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:37:06] Request Incoming: GET /graduation_project/patient/dashboard
+[2025-12-12 00:37:06] Router Processing: Original URI=[/graduation_project/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-12 00:37:42] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:37:42] Request Incoming: GET /graduation_project/logout?1765496262459
+[2025-12-12 00:37:42] Router Processing: Original URI=[/graduation_project/logout?1765496262459] Cleaned Route=[/logout]
+[2025-12-12 00:37:42] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:37:42] Request Incoming: GET /graduation_project/
+[2025-12-12 00:37:42] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:37:44] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:37:44] Request Incoming: POST /graduation_project/login
+[2025-12-12 00:37:44] Router Processing: Original URI=[/graduation_project/login] Cleaned Route=[/login]
+[2025-12-12 00:37:44] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:37:44] Request Incoming: GET /graduation_project/
+[2025-12-12 00:37:44] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:37:49] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:37:49] Request Incoming: GET /graduation_project/register
+[2025-12-12 00:37:49] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:38:04] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:38:04] Request Incoming: POST /graduation_project/register
+[2025-12-12 00:38:04] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:38:04] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:38:04] Request Incoming: GET /graduation_project/
+[2025-12-12 00:38:04] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:38:13] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:38:13] Request Incoming: POST /graduation_project/login
+[2025-12-12 00:38:13] Router Processing: Original URI=[/graduation_project/login] Cleaned Route=[/login]
+[2025-12-12 00:38:13] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:38:13] Request Incoming: GET /graduation_project/doctor/dashboard
+[2025-12-12 00:38:13] Router Processing: Original URI=[/graduation_project/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-12 00:38:52] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:38:52] Request Incoming: GET /graduation_project/logout?1765496332006
+[2025-12-12 00:38:52] Router Processing: Original URI=[/graduation_project/logout?1765496332006] Cleaned Route=[/logout]
+[2025-12-12 00:38:52] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:38:52] Request Incoming: GET /graduation_project/
+[2025-12-12 00:38:52] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:38:54] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:38:54] Request Incoming: GET /graduation_project/register
+[2025-12-12 00:38:54] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:39:22] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:39:22] Request Incoming: POST /graduation_project/register
+[2025-12-12 00:39:22] Router Processing: Original URI=[/graduation_project/register] Cleaned Route=[/register]
+[2025-12-12 00:39:22] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:39:22] Request Incoming: GET /graduation_project/
+[2025-12-12 00:39:22] Router Processing: Original URI=[/graduation_project/] Cleaned Route=[/]
+[2025-12-12 00:39:35] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:39:35] Request Incoming: POST /graduation_project/login
+[2025-12-12 00:39:35] Router Processing: Original URI=[/graduation_project/login] Cleaned Route=[/login]
+[2025-12-12 00:39:35] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:39:35] Request Incoming: GET /graduation_project/doctor/dashboard
+[2025-12-12 00:39:35] Router Processing: Original URI=[/graduation_project/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-12 00:40:26] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:40:26] Request Incoming: GET /graduation_project/doctor/request/reply?id=4
+[2025-12-12 00:40:26] Router Processing: Original URI=[/graduation_project/doctor/request/reply?id=4] Cleaned Route=[/doctor/request/reply]
+[2025-12-12 00:40:28] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:40:28] Request Incoming: GET /graduation_project/doctor/dashboard
+[2025-12-12 00:40:28] Router Processing: Original URI=[/graduation_project/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-12 00:40:40] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:40:40] Request Incoming: GET /graduation_project/chat?patient_id=4
+[2025-12-12 00:40:40] Router Processing: Original URI=[/graduation_project/chat?patient_id=4] Cleaned Route=[/chat]
+[2025-12-12 00:40:44] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:40:44] Request Incoming: GET /graduation_project/chat/fetch?other_id=4
+[2025-12-12 00:40:44] Router Processing: Original URI=[/graduation_project/chat/fetch?other_id=4] Cleaned Route=[/chat/fetch]
+[2025-12-12 00:40:44] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:40:44] Request Incoming: GET /graduation_project/doctor/dashboard
+[2025-12-12 00:40:44] Router Processing: Original URI=[/graduation_project/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-12 00:42:50] Config loaded. BASE_URL: http://localhost/graduation_project/
+[2025-12-12 00:42:50] Request Incoming: GET /graduation_project/doctor/dashboard
+[2025-12-12 00:42:50] Router Processing: Original URI=[/graduation_project/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
