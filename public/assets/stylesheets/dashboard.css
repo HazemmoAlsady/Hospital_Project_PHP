@@ -1,0 +1,124 @@
+/* =================================
+   DASHBOARD SPECIFIC STYLES
+   Medical-themed dashboard layouts
+   ================================= */
+
+/* Content Sections */
+.content-section {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.content-section.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Request Cards */
+.request-card {
+    background: #f9fafb;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.request-card:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 12px rgba(8, 145, 178, 0.1);
+    transform: translateY(-2px);
+}
+
+.request-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.patient-info h4 {
+    font-size: 18px;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.patient-info p {
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.request-body {
+    margin-bottom: 15px;
+}
+
+.request-label {
+    font-size: 13px;
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.request-text {
+    color: var(--text-primary);
+    line-height: 1.6;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.reply-box {
+    background: #ecfdf5;
+    padding: 15px;
+    border-radius: 8px;
+    border-right: 3px solid var(--success-color);
+    margin-bottom: 15px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Stats Enhancements */
+.stat-card {
+    animation: slideUp 0.4s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Table Enhancements */
+.medical-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.medical-table tbody tr:last-child td {
+    border-bottom: none;
+}

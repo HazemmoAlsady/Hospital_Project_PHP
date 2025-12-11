@@ -1,0 +1,223 @@
+[2025-12-10 23:09:52] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:09:52] Request Incoming: GET /
+[2025-12-10 23:09:52] Router Processing: Original URI=[/] Cleaned Route=[/]
+[2025-12-10 23:09:52] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:09:52] Request Incoming: GET /favicon.ico
+[2025-12-10 23:09:52] Router Processing: Original URI=[/favicon.ico] Cleaned Route=[/favicon.ico]
+[2025-12-10 23:09:54] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:09:54] Request Incoming: POST /login
+[2025-12-10 23:09:54] Router Processing: Original URI=[/login] Cleaned Route=[/login]
+[2025-12-10 23:09:54] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:09:54] Request Incoming: GET //doctor/dashboard
+[2025-12-10 23:09:54] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:09:54] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:09:54] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:10:08] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:10:08] Request Incoming: GET //chat?patient_id=2
+[2025-12-10 23:10:08] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:10:08] Request Incoming: GET /chat?patient_id=2
+[2025-12-10 23:10:08] Router Processing: Original URI=[/chat?patient_id=2] Cleaned Route=[/chat]
+[2025-12-10 23:11:58] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:11:58] Request Incoming: GET /
+[2025-12-10 23:11:58] Router Processing: Original URI=[/] Cleaned Route=[/]
+[2025-12-10 23:11:58] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:11:58] Request Incoming: GET //doctor/dashboard
+[2025-12-10 23:11:58] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:11:58] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:11:58] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:12:07] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:07] Request Incoming: GET //doctor/records/show?patient_id=4
+[2025-12-10 23:12:07] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:07] Request Incoming: GET /doctor/records/show?patient_id=4
+[2025-12-10 23:12:07] Router Processing: Original URI=[/doctor/records/show?patient_id=4] Cleaned Route=[/doctor/records/show]
+[2025-12-10 23:12:09] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:09] Request Incoming: GET /doctor/record/create?patient_id=4
+[2025-12-10 23:12:09] Router Processing: Original URI=[/doctor/record/create?patient_id=4] Cleaned Route=[/doctor/record/create]
+[2025-12-10 23:12:10] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:10] Request Incoming: GET /doctor/records/show?patient_id=4
+[2025-12-10 23:12:10] Router Processing: Original URI=[/doctor/records/show?patient_id=4] Cleaned Route=[/doctor/records/show]
+[2025-12-10 23:12:12] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:12] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:12:12] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:12:15] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:15] Request Incoming: GET //chat?patient_id=2
+[2025-12-10 23:12:15] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:15] Request Incoming: GET /chat?patient_id=2
+[2025-12-10 23:12:15] Router Processing: Original URI=[/chat?patient_id=2] Cleaned Route=[/chat]
+[2025-12-10 23:12:18] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:18] Request Incoming: GET /chat/fetch?other_id=2
+[2025-12-10 23:12:18] Router Processing: Original URI=[/chat/fetch?other_id=2] Cleaned Route=[/chat/fetch]
+[2025-12-10 23:12:18] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:18] Request Incoming: GET //doctor/dashboard
+[2025-12-10 23:12:18] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:18] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:12:18] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:12:21] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:21] Request Incoming: GET /logout?1765404741429
+[2025-12-10 23:12:21] Router Processing: Original URI=[/logout?1765404741429] Cleaned Route=[/logout]
+[2025-12-10 23:12:21] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:21] Request Incoming: GET //
+[2025-12-10 23:12:21] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:21] Request Incoming: GET /
+[2025-12-10 23:12:21] Router Processing: Original URI=[/] Cleaned Route=[/]
+[2025-12-10 23:12:26] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:26] Request Incoming: POST /login
+[2025-12-10 23:12:26] Router Processing: Original URI=[/login] Cleaned Route=[/login]
+[2025-12-10 23:12:26] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:26] Request Incoming: GET //patient/dashboard
+[2025-12-10 23:12:26] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:26] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:12:26] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:12:36] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:12:36] Request Incoming: POST /patient/dashboard
+[2025-12-10 23:12:36] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:13:31] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:31] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:13:31] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:13:32] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:32] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:13:32] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:13:35] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:35] Request Incoming: POST //patient/request/create
+[2025-12-10 23:13:35] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:35] Request Incoming: GET /patient/request/create
+[2025-12-10 23:13:35] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:13:41] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:41] Request Incoming: POST //patient/request/create
+[2025-12-10 23:13:41] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:41] Request Incoming: GET /patient/request/create
+[2025-12-10 23:13:41] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:13:44] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:44] Request Incoming: GET /patient/request/create
+[2025-12-10 23:13:44] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:13:45] Config loaded. BASE_URL: http://localhost:8000\/
+[2025-12-10 23:13:45] Request Incoming: GET /patient/request/create
+[2025-12-10 23:13:45] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:15:56] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:15:56] Request Incoming: POST //patient/request/create
+[2025-12-10 23:15:56] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:15:56] Request Incoming: GET /patient/request/create
+[2025-12-10 23:15:56] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:15:56] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:15:56] Request Incoming: GET /public/assets/stylesheets/style.css
+[2025-12-10 23:15:56] Router Processing: Original URI=[/public/assets/stylesheets/style.css] Cleaned Route=[/public/assets/stylesheets/style.css]
+[2025-12-10 23:15:56] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:15:56] Request Incoming: GET /public/assets/stylesheets/dashboard.css
+[2025-12-10 23:15:56] Router Processing: Original URI=[/public/assets/stylesheets/dashboard.css] Cleaned Route=[/public/assets/stylesheets/dashboard.css]
+[2025-12-10 23:15:56] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:15:56] Request Incoming: GET /public/assets/stylesheets/forms.css
+[2025-12-10 23:15:56] Router Processing: Original URI=[/public/assets/stylesheets/forms.css] Cleaned Route=[/public/assets/stylesheets/forms.css]
+[2025-12-10 23:16:00] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:00] Request Incoming: GET /patient/request/create
+[2025-12-10 23:16:00] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:16:00] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:00] Request Incoming: GET /public/assets/stylesheets/style.css
+[2025-12-10 23:16:00] Router Processing: Original URI=[/public/assets/stylesheets/style.css] Cleaned Route=[/public/assets/stylesheets/style.css]
+[2025-12-10 23:16:00] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:00] Request Incoming: GET /public/assets/stylesheets/dashboard.css
+[2025-12-10 23:16:00] Router Processing: Original URI=[/public/assets/stylesheets/dashboard.css] Cleaned Route=[/public/assets/stylesheets/dashboard.css]
+[2025-12-10 23:16:00] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:00] Request Incoming: GET /public/assets/stylesheets/forms.css
+[2025-12-10 23:16:00] Router Processing: Original URI=[/public/assets/stylesheets/forms.css] Cleaned Route=[/public/assets/stylesheets/forms.css]
+[2025-12-10 23:16:01] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:01] Request Incoming: GET /patient/request/create
+[2025-12-10 23:16:01] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:16:01] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:01] Request Incoming: GET /public/assets/stylesheets/style.css
+[2025-12-10 23:16:01] Router Processing: Original URI=[/public/assets/stylesheets/style.css] Cleaned Route=[/public/assets/stylesheets/style.css]
+[2025-12-10 23:16:01] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:01] Request Incoming: GET /public/assets/stylesheets/dashboard.css
+[2025-12-10 23:16:01] Router Processing: Original URI=[/public/assets/stylesheets/dashboard.css] Cleaned Route=[/public/assets/stylesheets/dashboard.css]
+[2025-12-10 23:16:01] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:01] Request Incoming: GET /public/assets/stylesheets/forms.css
+[2025-12-10 23:16:01] Router Processing: Original URI=[/public/assets/stylesheets/forms.css] Cleaned Route=[/public/assets/stylesheets/forms.css]
+[2025-12-10 23:16:03] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:03] Request Incoming: GET /
+[2025-12-10 23:16:03] Router Processing: Original URI=[/] Cleaned Route=[/]
+[2025-12-10 23:16:03] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:03] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:16:03] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:16:03] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:03] Request Incoming: GET /public/assets/stylesheets/style.css
+[2025-12-10 23:16:03] Router Processing: Original URI=[/public/assets/stylesheets/style.css] Cleaned Route=[/public/assets/stylesheets/style.css]
+[2025-12-10 23:16:03] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:03] Request Incoming: GET /public/assets/stylesheets/dashboard.css
+[2025-12-10 23:16:03] Router Processing: Original URI=[/public/assets/stylesheets/dashboard.css] Cleaned Route=[/public/assets/stylesheets/dashboard.css]
+[2025-12-10 23:16:03] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:03] Request Incoming: GET /public/assets/stylesheets/forms.css
+[2025-12-10 23:16:03] Router Processing: Original URI=[/public/assets/stylesheets/forms.css] Cleaned Route=[/public/assets/stylesheets/forms.css]
+[2025-12-10 23:16:11] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:11] Request Incoming: GET /
+[2025-12-10 23:16:11] Router Processing: Original URI=[/] Cleaned Route=[/]
+[2025-12-10 23:16:11] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:11] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:16:11] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:16:11] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:11] Request Incoming: GET /public/assets/stylesheets/style.css
+[2025-12-10 23:16:11] Router Processing: Original URI=[/public/assets/stylesheets/style.css] Cleaned Route=[/public/assets/stylesheets/style.css]
+[2025-12-10 23:16:11] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:11] Request Incoming: GET /public/assets/stylesheets/dashboard.css
+[2025-12-10 23:16:11] Router Processing: Original URI=[/public/assets/stylesheets/dashboard.css] Cleaned Route=[/public/assets/stylesheets/dashboard.css]
+[2025-12-10 23:16:11] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:16:11] Request Incoming: GET /public/assets/stylesheets/forms.css
+[2025-12-10 23:16:11] Router Processing: Original URI=[/public/assets/stylesheets/forms.css] Cleaned Route=[/public/assets/stylesheets/forms.css]
+[2025-12-10 23:17:32] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:32] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:17:32] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:17:37] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:37] Request Incoming: POST /patient/request/create
+[2025-12-10 23:17:37] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:17:37] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:37] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:17:37] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:17:42] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:42] Request Incoming: POST /patient/request/create
+[2025-12-10 23:17:42] Router Processing: Original URI=[/patient/request/create] Cleaned Route=[/patient/request/create]
+[2025-12-10 23:17:42] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:42] Request Incoming: GET /patient/dashboard
+[2025-12-10 23:17:42] Router Processing: Original URI=[/patient/dashboard] Cleaned Route=[/patient/dashboard]
+[2025-12-10 23:17:47] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:47] Request Incoming: GET /logout?1765405067782
+[2025-12-10 23:17:47] Router Processing: Original URI=[/logout?1765405067782] Cleaned Route=[/logout]
+[2025-12-10 23:17:47] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:47] Request Incoming: GET /
+[2025-12-10 23:17:47] Router Processing: Original URI=[/] Cleaned Route=[/]
+[2025-12-10 23:17:50] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:50] Request Incoming: POST /login
+[2025-12-10 23:17:50] Router Processing: Original URI=[/login] Cleaned Route=[/login]
+[2025-12-10 23:17:50] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:50] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:17:50] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:17:55] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:55] Request Incoming: GET /doctor/request/reply?id=3
+[2025-12-10 23:17:55] Router Processing: Original URI=[/doctor/request/reply?id=3] Cleaned Route=[/doctor/request/reply]
+[2025-12-10 23:17:57] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:17:57] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:17:57] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:18:03] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:18:03] Request Incoming: GET /doctor/request/update?id=3&action=accept
+[2025-12-10 23:18:03] Router Processing: Original URI=[/doctor/request/update?id=3&action=accept] Cleaned Route=[/doctor/request/update]
+[2025-12-10 23:18:03] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:18:03] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:18:03] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:18:09] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:18:09] Request Incoming: GET /doctor/record/create?patient_id=4
+[2025-12-10 23:18:09] Router Processing: Original URI=[/doctor/record/create?patient_id=4] Cleaned Route=[/doctor/record/create]
+[2025-12-10 23:18:11] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:18:11] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:18:11] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:20:11] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:20:11] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:20:11] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:21:05] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:21:05] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:21:05] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
+[2025-12-10 23:21:07] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:21:07] Request Incoming: GET /chat?patient_id=4
+[2025-12-10 23:21:07] Router Processing: Original URI=[/chat?patient_id=4] Cleaned Route=[/chat]
+[2025-12-10 23:21:10] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:21:10] Request Incoming: GET /chat/fetch?other_id=4
+[2025-12-10 23:21:10] Router Processing: Original URI=[/chat/fetch?other_id=4] Cleaned Route=[/chat/fetch]
+[2025-12-10 23:21:12] Config loaded. BASE_URL: http://localhost:8000/
+[2025-12-10 23:21:12] Request Incoming: GET /doctor/dashboard
+[2025-12-10 23:21:12] Router Processing: Original URI=[/doctor/dashboard] Cleaned Route=[/doctor/dashboard]
