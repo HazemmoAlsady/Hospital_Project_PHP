@@ -67,11 +67,9 @@ class PatientController extends Controller {
             $this->setFlash('success', 'تم إرسال الطلب بنجاح');
         } catch (Exception $e) {
             // SHOW ERROR ON SCREEN
-            die("<div style='background:red; color:white; padding:20px; font-size:20px;'>
-                ❌ فشل الحفظ في قاعدة البيانات:<br>" . $e->getMessage() . 
-                "<br><br>البيانات:<br>Patient ID: $patientId<br>Doc: $doctorNameRequested<br>Msg: $message
-                <br><br><a href='/patient/dashboard'>عودة</a>
-                </div>");
+            // Store the error in a flash message and redirect back to the dashboard
+            $this->setFlash('error', 'فشل الحفظ في قاعدة البيانات: ' . $e->getMessage());
+            $this->redirect('/patient/dashboard');
         }
         
         $this->redirect('/patient/dashboard');

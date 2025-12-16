@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>لوحة الطبيب</title>
-  <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/style.css">
-  <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/dashboard.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/style.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/dashboard.css">
 </head>
 <body>
 

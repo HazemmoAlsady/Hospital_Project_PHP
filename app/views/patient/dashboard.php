@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>لوحة المريض</title>
-  <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/style.css">
-  <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/dashboard.css">
-  <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/forms.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/style.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/dashboard.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/forms.css">
 </head>
 <body>
 

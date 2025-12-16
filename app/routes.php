@@ -13,7 +13,7 @@ $router = new Router();
 // ========================================
 $router->get('/', 'AuthController', 'showLogin');
 $router->get('/login', 'AuthController', 'showLogin'); // Alias for /
-$router->get('/debug-db', 'AuthController', 'debugRequests'); // DEBUG ROUTE
+
 $router->post('/', 'AuthController', 'login'); // Fallback for empty action
 $router->post('/login', 'AuthController', 'login');
 $router->get('/logout', 'AuthController', 'logout');
