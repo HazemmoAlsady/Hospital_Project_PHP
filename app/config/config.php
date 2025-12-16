@@ -1,5 +1,5 @@
 <?php
-
+    // define URl 
 $protocol = 'http';
 
 $host = $_SERVER['HTTP_HOST'];

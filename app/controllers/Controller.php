@@ -33,7 +33,8 @@ class Controller {
             $url = rtrim($baseUrl, '/') . '/' . ltrim($url, '/');
         }
         
-        $url = str_replace('//', '/', $url);
+        // Remove double slashes but preserve protocol (http://)
+        $url = preg_replace('#(?<!:)//+#', '/', $url);
         
         header("Location: {$url}");
         exit;
@@ -57,8 +58,8 @@ class Controller {
     /**
     * Require authentication or redirect
     */
-    protected function requireAuth() {
-        if (!isset($_SESSION['user'])) {
+    protected function requireAuth($role = null) {
+        if (!$this->checkAuth($role)) {
             $this->redirect('/');
         }
     }
