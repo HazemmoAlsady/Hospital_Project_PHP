@@ -22,8 +22,8 @@
         <?= mb_substr($doctor['name'], 0, 1) ?>
       </div>
       <div class="profile-info">
-        <h3>د. <?= htmlspecialchars($doctor['name']) ?></h3>
-        <p><?= htmlspecialchars($doctor['specialization']) ?></p>
+        <h3>د. <?= htmlspecialchars($doctor['name'] ?? '') ?></h3>
+        <p><?= htmlspecialchars($doctor['specialization'] ?? 'عام') ?></p>
       </div>
     </div>
   </div>
