@@ -117,14 +117,7 @@ class AuthController extends Controller {
             $this->redirect('/register');
         }
         
-        // DEBUG: Check what data is arriving
-        // Remove this block after fix!!!
-        /*
-        echo "<pre>";
-        print_r($_POST);
-        echo "</pre>";
-        // die("Debug Stop");
-        */
+
         
         $name = trim($_POST['name'] ?? '');
         $email = trim($_POST['email'] ?? '');
@@ -167,8 +160,9 @@ class AuthController extends Controller {
                     $this->redirect('/');
                 } catch (PDOException $e) {
                     $errors[] = "حدث خطأ في قاعدة البيانات: " . $e->getMessage();
-                    // DEBUG: Show error directly
-                    die("Database Error: " . $e->getMessage());
+                    // Store the error in a flash message and redirect back to the register page
+                    $this->setFlash('error', $e->getMessage());
+                    $this->redirect('/register');
                 }
             }
         }
@@ -198,21 +192,5 @@ class AuthController extends Controller {
                 $this->redirect('/');
         }
     }
-    // DEBUG METHOD
-    public function debugRequests() {
-        echo "<h1>🔍 Requests Table Inspector (via Controller)</h1>";
-        try {
-            $stmt = $this->pdo->query("SELECT * FROM requests ORDER BY id DESC");
-            $requests = $stmt->fetchAll(PDO::FETCH_ASSOC);
-            echo "<h3>Total Requests: " . count($requests) . "</h3>";
-            if ($requests) {
-                echo "<pre>"; print_r($requests); echo "</pre>";
-            } else {
-                echo "Table is empty.";
-            }
-        } catch (Exception $e) {
-            echo "Error: " . $e->getMessage();
-        }
-        exit;
-    }
+
 }

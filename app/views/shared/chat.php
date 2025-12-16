@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>المحادثة مع <?= htmlspecialchars($otherUser['name']) ?></title>
-    <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/style.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/chat.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>public/assets/stylesheets/dashboard.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/style.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/chat.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/stylesheets/dashboard.css">
 </head>
 <body>
 
