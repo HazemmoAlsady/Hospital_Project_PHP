@@ -10,12 +10,12 @@
 </head>
 <body class="auth-page">
 
-<div class="medical-decoration top-left">🩺</div>
-<div class="medical-decoration bottom-right">💊</div>
+<div class="medical-decoration top-left"></div>
+<div class="medical-decoration bottom-right"></div>
 
 <div class="auth-container">
     <div class="auth-header">
-        <div class="auth-icon">📋</div>
+        <div class="auth-icon"></div>
         <h1>تسجيل حساب جديد</h1>
         <p>انضم إلى نظام إدارة المستشفى</p>
     </div>
@@ -53,21 +53,21 @@
                     <div class="role-option">
                         <input type="radio" id="patient" name="role" value="patient" checked>
                         <label for="patient" class="role-label">
-                            <span class="role-icon">🧑‍⚕️</span>
+                            <span class="role-icon"></span>
                             <span class="role-name">مريض</span>
                         </label>
                     </div>
                     <div class="role-option">
                         <input type="radio" id="doctor" name="role" value="doctor">
                         <label for="doctor" class="role-label">
-                            <span class="role-icon">👨‍⚕️</span>
+                            <span class="role-icon"></span>
                             <span class="role-name">طبيب</span>
                         </label>
                     </div>
                     <div class="role-option">
                         <input type="radio" id="admin" name="role" value="admin">
                         <label for="admin" class="role-label">
-                            <span class="role-icon">⚙️</span>
+                            <span class="role-icon"></span>
                             <span class="role-name">مدير</span>
                         </label>
                     </div>
@@ -84,7 +84,7 @@
                 <input type="text" id="desired_doctor" name="desired_doctor" placeholder="مثال: د. محمد أحمد">
             </div>
 
-            <button type="submit" class="auth-btn">✅ إنشاء الحساب</button>
+            <button type="submit" class="auth-btn">إنشاء الحساب</button>
         </form>
 
         <div class="auth-footer">

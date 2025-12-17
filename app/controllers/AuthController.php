@@ -48,9 +48,8 @@ class AuthController extends Controller {
         if (!$email || !$password) {
             $errors[] = "من فضلك أدخل البريد الإلكتروني وكلمة المرور.";
         } else {
-            $stmt = $this->pdo->prepare("SELECT * FROM users WHERE email = ?");
-            $stmt->execute([$email]);
-            $user = $stmt->fetch();
+            require_once __DIR__ . '/../models/User.php';
+            $user = User::findByEmail($email);
             
             if ($user && password_verify($password, $user['password'])) {
                 // Set session

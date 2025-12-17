@@ -13,7 +13,7 @@
 <!-- Sidebar -->
 <aside class="medical-sidebar">
   <div class="sidebar-brand">
-    <h2>🤒 لوحة المريض</h2>
+    <h2>لوحة المريض</h2>
     <p>نظام الرعاية الصحية</p>
   </div>
   
@@ -31,13 +31,13 @@
   
   <nav class="nav-menu">
     <a href="<?= BASE_URL ?>patient/dashboard" class="nav-item active">
-      <span class="nav-icon">📊</span>
+      <span class="nav-icon"></span>
       <span>لوحة التحكم</span>
     </a>
   </nav>
   
   <a href="<?= BASE_URL ?>logout" class="logout-button" onclick="event.preventDefault(); window.location.href='<?= BASE_URL ?>logout?' + new Date().getTime();">
-    <span>🚪</span>
+    <span></span>
     <span>تسجيل خروج</span>
   </a>
 </aside>
@@ -45,9 +45,6 @@
 <!-- Main Content -->
 <main class="main-container">
 
-  <!-- DEBUG DATA -->
-
-  
   <!-- Flash Messages -->
   <?php if (isset($_SESSION['flash'])): ?>
     <?php foreach ($_SESSION['flash'] as $type => $message): ?>
@@ -60,21 +57,21 @@
   
   <!-- Header -->
   <div class="page-title">
-    <h1>👋 مرحباً، <?= htmlspecialchars($patient['name']) ?></h1>
+    <h1>مرحباً، <?= htmlspecialchars($patient['name']) ?></h1>
     <p>إليك نظرة عامة على طلباتك وسجلاتك الطبية</p>
   </div>
   
   <!-- Stats Grid -->
   <div class="stats-grid">
     <div class="stat-card">
-      <div class="stat-icon-wrap teal">📋</div>
+      <div class="stat-icon-wrap teal"></div>
       <div class="stat-content">
         <h3>إجمالي الطلبات</h3>
         <div class="stat-number"><?= count($requests) ?></div>
       </div>
     </div>
     <div class="stat-card">
-      <div class="stat-icon-wrap green">📁</div>
+      <div class="stat-icon-wrap green"></div>
       <div class="stat-content">
         <h3>السجلات الطبية</h3>
         <div class="stat-number"><?= count($records) ?></div>
@@ -85,7 +82,7 @@
   <!-- My Requests Section -->
   <div class="section-card">
     <div class="section-header">
-      <h2>📬 طلباتي</h2>
+      <h2>طلباتي</h2>
     </div>
     
     <div style="padding: 25px;">
@@ -94,8 +91,8 @@
           <div class="request-card">
             <div class="request-header">
               <div>
-                <h4>📝 طلب رقم #<?= $req['id'] ?></h4>
-                <p>🕐 <?= date('Y-m-d H:i', strtotime($req['created_at'])) ?></p>
+                <h4>طلب رقم #<?= $req['id'] ?></h4>
+                <p><?= date('Y-m-d H:i', strtotime($req['created_at'])) ?></p>
               </div>
               <span class="badge <?= $req['status'] ?>">
                 <?= $req['status'] ?>
@@ -111,7 +108,7 @@
             
             <?php if (!empty($req['doctor_reply'])): ?>
               <div class="reply-box">
-                <span class="request-label" style="color: var(--success-color);">💬 رد الطبيب:</span>
+                <span class="request-label" style="color: var(--success-color);">رد الطبيب:</span>
                 <div style="color: var(--text-primary);">
                   <?= nl2br(htmlspecialchars($req['doctor_reply'])) ?>
                 </div>
@@ -121,7 +118,7 @@
         <?php endforeach; ?>
       <?php else: ?>
         <div class="empty-state">
-          <div class="empty-icon">📭</div>
+          <div class="empty-icon"></div>
           <p>لم ترسل أي طلبات بعد</p>
         </div>
       <?php endif; ?>
@@ -131,7 +128,7 @@
   <!-- Create New Request Section -->
   <div class="section-card">
     <div class="section-header">
-      <h2>📝 إرسال طلب جديد</h2>
+      <h2>إرسال طلب جديد</h2>
     </div>
     <div class="request-form">
       <form method="post" action="<?= BASE_URL ?>patient/request/create">
@@ -143,7 +140,7 @@
           <label>رسالتك</label>
           <textarea name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">📤 إرسال الطلب</button>
+        <button type="submit" class="btn btn-primary">إرسال الطلب</button>
       </form>
     </div>
   </div>

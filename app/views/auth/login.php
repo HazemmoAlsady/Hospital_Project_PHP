@@ -10,12 +10,12 @@
 </head>
 <body class="auth-page">
 
-<div class="medical-decoration top-left">🏥</div>
-<div class="medical-decoration bottom-right">⚕️</div>
+<div class="medical-decoration top-left"></div>
+<div class="medical-decoration bottom-right"></div>
 
 <div class="auth-container">
     <div class="auth-header">
-        <div class="auth-icon">🏥</div>
+        <div class="auth-icon"></div>
         <h1>تسجيل الدخول</h1>
         <p>مرحباً بك في نظام إدارة المستشفى</p>
     </div>
@@ -56,7 +56,7 @@
             </div>
 
             <button type="submit" class="auth-btn">
-                🔐 تسجيل الدخول
+                تسجيل الدخول
             </button>
         </form>
 

@@ -35,11 +35,8 @@
     transition: all 0.3s ease;
 }
 
-.request-card:hover {
-    border-color: var(--primary-color);
-    box-shadow: 0 4px 12px rgba(8, 145, 178, 0.1);
-    transform: translateY(-2px);
-}
+/* Hover effect removed per user request */
+/* .request-card:hover styles removed */
 
 .request-header {
     display: flex;
