@@ -32,7 +32,7 @@ class Request extends Model
             SELECT r.*, p.name AS patient_name, p.email AS patient_email
             FROM requests r
             JOIN users p ON r.patient_id = p.id
-            WHERE r.status = 'pending'
+            WHERE r.status = 'pending' AND r.doctor_id IS NULL
             ORDER BY r.created_at DESC
         ";
 

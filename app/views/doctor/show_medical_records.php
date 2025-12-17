@@ -11,7 +11,7 @@
     <div class="container" style="margin-top: 40px;">
         <div class="section-card">
             <div class="section-header" style="display: flex; justify-content: space-between; align-items: center;">
-                <h2>📁 السجلات الطبية للمريض: <?= htmlspecialchars($patient['name']) ?></h2>
+                <h2>السجلات الطبية للمريض: <?= htmlspecialchars($patient['name']) ?></h2>
                 <a href="<?= BASE_URL ?>doctor/dashboard" class="btn btn-secondary">عودة للوحة التحكم</a>
             </div>
             

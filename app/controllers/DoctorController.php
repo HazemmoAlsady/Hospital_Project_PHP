@@ -21,7 +21,17 @@ class DoctorController extends Controller {
         
         // Get data from Models
         $doctor = User::find($doctorId);
-        $requests = Request::getByDoctor($doctorId);
+        
+        $myRequests = Request::getByDoctor($doctorId);
+        $pendingRequests = Request::getPending();
+        
+        // Merge pending requests with doctor's requests
+        $requests = array_merge($pendingRequests, $myRequests);
+        
+        // Sort by created_at desc
+        usort($requests, function($a, $b) {
+            return strtotime($b['created_at']) <=> strtotime($a['created_at']);
+        });
         $records = MedicalRecord::getByDoctor($doctorId);
         $messages = Message::getRecentByUser($doctorId);
         

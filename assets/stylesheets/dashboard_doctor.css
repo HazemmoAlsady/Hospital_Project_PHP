@@ -1,0 +1,141 @@
+/* =================================
+   DOCTOR DASHBOARD IMPROVEMENTS
+   ================================= */
+
+/* Enhanced Card Design */
+.request-card-doc {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    margin-bottom: 24px;
+    border: 1px solid #f1f5f9;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover effect removed per user request */
+/* .request-card-doc:hover styles removed */
+/* .request-card-doc::before styles removed */
+
+/* Header Section */
+.req-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.req-header h4 {
+    margin: 0;
+    font-size: 1.15rem;
+    color: #0f172a;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.req-header .date {
+    font-size: 0.85rem;
+    color: #64748b;
+    background: #f8fafc;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-family: inherit;
+}
+
+/* Body Section */
+.req-body {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.req-body p {
+    color: #334155;
+    line-height: 1.7;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Actions Section */
+.req-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Enhanced Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(14, 165, 233, 0.2);
+}
+
+.btn-primary:hover {
+    box-shadow: 0 6px 10px -1px rgba(14, 165, 233, 0.3);
+    transform: translateY(-1px);
+}
+
+.btn-success {
+    background: #10b981;
+    color: white;
+}
+
+.btn-danger {
+    background: #ef4444;
+    color: white;
+}
+
+.btn-secondary {
+    background: #94a3b8;
+    color: white;
+}
+
+/* Reply Page Specific */
+.reply-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.patient-message-card {
+    background: white;
+    border-radius: 16px 16px 0 0;
+    padding: 30px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.reply-form-card {
+    background: #f8fafc;
+    border-radius: 0 0 16px 16px;
+    padding: 30px;
+    border-top: 1px solid white;
+}
